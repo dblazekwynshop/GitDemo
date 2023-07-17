@@ -70,7 +70,9 @@ public class AlertsDemo2 extends BaseTest{
 		
 		Thread.sleep(2000);
 
-		
+		System.out.println("Blabla1");
+		System.out.println("Blabla2");
+		System.out.println("Blabla3");
 		
 		
 	}

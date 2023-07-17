@@ -58,7 +58,10 @@ public class eCommerce_tc_4_Hybrid extends BaseTest{
 			totalSum = totalSum + price;
 		
 		}
-		
+
+		System.out.println("Blabla1");
+		System.out.println("Blabla2");
+		System.out.println("Blabla3");
 		
 		String displaySum = driver.findElement(By.id("com.androidsample.generalstore:id/totalAmountLbl")).getText();
 		Double displayFormattedSum = getFormattedAmount(displaySum);
