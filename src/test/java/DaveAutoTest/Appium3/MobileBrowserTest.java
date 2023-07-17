@@ -20,7 +20,8 @@ public class MobileBrowserTest extends BrowserBaseTest{
 		driver.get("https://rahulshettyacademy.com/angularAppdemo/");
 		driver.findElement(By.xpath("//span[@class='navbar-toggler-icon']")).click();
 		driver.findElement(By.cssSelector("a[routerlink*='products']")).click();
-		
+		driver.findElement(By.cssSelector("a[routerlink*='products']")).click();
+		driver.findElement(By.cssSelector("a[routerlink*='products']")).click();
 		
 		//skrolovani na strance
 		((JavascriptExecutor) driver).executeScript("window.scrollBy(0,1000)", "");
