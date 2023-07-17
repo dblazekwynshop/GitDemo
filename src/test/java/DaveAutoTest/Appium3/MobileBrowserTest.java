@@ -22,7 +22,15 @@ public class MobileBrowserTest extends BrowserBaseTest{
 		driver.findElement(By.cssSelector("a[routerlink*='products']")).click();
 		driver.findElement(By.cssSelector("a[routerlink*='products']")).click();
 		driver.findElement(By.cssSelector("a[routerlink*='products']")).click();
-		
+		//blabla
+		// blalba
+		// blabla
+
+		System.out.println("Blabla1");
+		System.out.println("Blabla2");
+		System.out.println("Blabla3");
+
+
 		//skrolovani na strance
 		((JavascriptExecutor) driver).executeScript("window.scrollBy(0,1000)", "");
 		
