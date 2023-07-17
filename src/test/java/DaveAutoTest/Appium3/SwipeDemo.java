@@ -34,7 +34,8 @@ public class SwipeDemo extends BaseTest{
 //			));
 		//swipe z BaseTest
 		swipeAction(firstImage,"left");
-		
+		swipeAction(firstImage,"right");
+
 		//overi ze se zmeni stav na false
 		Assert.assertEquals(driver.findElement(By.xpath("//android.widget.ImageView[1]")).getAttribute("focusable"),"false");
 		

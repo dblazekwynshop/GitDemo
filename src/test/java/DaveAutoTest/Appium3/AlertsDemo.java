@@ -29,7 +29,12 @@ public class AlertsDemo extends BaseTest{
 		Thread.sleep(2000);
 
 		
-		
+		System.out.println("Alerts1");
+		System.out.println("Alerts2");
+		System.out.println("Alerts3");
+		System.out.println("Alerts4");
+		System.out.println("Alerts5");
+
 		
 		
 		
